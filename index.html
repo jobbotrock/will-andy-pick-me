@@ -7,20 +7,30 @@
     <title>Will Andy Pick Me?</title>
   </head>
   <body>
-    <header>Will Andy Pick Me?</header>
-    <main class="main-grid">
+    <header>
+      <h1>Will Andy Pick Me?</h1>
+    </header>
+    <main>
       <section class="main-grid">
         <article class="left-grid">
-          <input class="ask-question">Ask your question here!</input>
-          <button class="get-answer">Get Your Answer!</button>
-          <img src="./assets/eight-ball.png" alt="woody-from-toy-story"/>
+          <section class="sub-header">
+            <input class="ask-question" type="text" style="text-align:center;" value="Ask your question here!"></input>
+            <button class="get-answer">Get Your Answer!</button>
+          </section>
+          <section class="image-container">
+            <img class="eight-ball" src="./assets/eight-ball.png" alt="woody-from-toy-story" height: 200px/>
+          </section>
           <section class="hidden">
             <h3 class="hidden-question">"Hidden Question?"</h3>
             <h3 class="hidden-answer">"Don't count on it"</h3>
-            <button class="clear-button">Clear</button>
           </section>
+          <div class="clear">
+            <button class="clear-button">Clear</button>
+          </div>
         </article>
-        <img src="./assets/woody.png" alt="woody-from-toy-story"/>
+        <section class="woody-pic">
+          <img class="woody" src="./assets/woody.png" alt="woody-from-toy-story"/>
+        </section>
       </section>
     </main>
   </body>
