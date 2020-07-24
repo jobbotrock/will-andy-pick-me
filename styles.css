@@ -1,5 +1,18 @@
 
+.main-grid {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 
+.left-grid {
+  background-color: #E6ECF4;
+}
+
+.get-answer {
+  background-color: #1C3455;
+}
 
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Life Savers', serif; */
