@@ -14,7 +14,8 @@
       <section class="main-grid">
         <article class="left-grid">
           <section class="sub-header">
-            <input class="ask-question" type="text" style="text-align:center;" value="Ask your question here!"></input>
+            <input class="ask-question" name="Name" type="text" style="text-align:center;" value="Ask your question here!" onfocus="(this.value == 'Ask your question here!') && (this.value = '')"
+       onblur="(this.value == '') && (this.value = 'Ask your question here!')"></input>
             <button class="get-answer">Get Your Answer!</button>
           </section>
           <section class="image-container">
@@ -25,7 +26,7 @@
             <h3 class="hidden-answer">"Don't count on it"</h3>
           </section>
           <div class="clear">
-            <button class="clear-button">Clear</button>
+            <button class="clear-button" disabled=true>Clear</button>
           </div>
         </article>
         <section class="woody-pic">
@@ -33,5 +34,6 @@
         </section>
       </section>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
